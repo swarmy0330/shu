@@ -1,0 +1,764 @@
+body,
+html {
+  margin: 0;
+  background-color: steelblue;
+  font-family: " 微軟正黑體";
+  letter-spacing: 0.65px;
+  font-size: 15px;
+  color: #555;
+  cursor: default;
+
+}
+
+.box1 {
+  background-color: rgb(151, 183, 224);
+  width: 180px;
+  height: 480px;
+  border-radius: 20px 0px 0px 0px;
+  padding: 50px;
+  margin: 80px;
+}
+
+.box2 {
+  background-color: lightsteelblue;
+  width: 180px;
+  height: 250px;
+  width: 800px;
+  height: 380px;
+  padding: 50px;
+  position: absolute;
+  top: 80px;
+  left: 360px;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.box3 {
+  background-color: lavender;
+
+  width: 1080px;
+  height: 1800px;
+  padding: 50px;
+  position: absolute;
+  top: 550px;
+  left: 80px;
+
+  border-radius: 0px 0px 20px 20px;
+
+}
+
+.b1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 0pt;
+  position: absolute;
+  top: 480px;
+
+}
+
+.b2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 0pt;
+
+  position: absolute;
+  top: 480px;
+  left: 190px;
+
+}
+
+.b3 {
+
+  width: 55px;
+  height: 55px;
+  border-radius: 0pt;
+  position: absolute;
+  top: 480px;
+  left: 260px;
+
+}
+
+.infor {
+  position: absolute;
+  top: 430px;
+  left: 150px;
+}
+
+.name {
+  color: #555;
+  font-style: inherit;
+  font-size: 16pt;
+  font-family: "華康中黑體(P)";
+
+  position: absolute;
+  top: 360px;
+  left: 185px;
+
+}
+
+.a {
+  color: #555;
+  font-style: inherit;
+  font-family: "華康中黑體(P)";
+  font-size: 12pt;
+  position: absolute;
+  left: 135px;
+  top: 390px;
+}
+
+img {
+  border-radius: 1000px;
+  width: 200px;
+  height: 230px;
+  position: absolute;
+  left: 120px;
+  top: 100px;
+}
+
+.p1 {
+  font-size: 30px;
+  position: absolute;
+  left: 80px;
+  top: 30px;
+
+  animation: p1 ease-in-out 3.8s;
+  transform: scaleX(1);
+}
+
+@keyframes p1 {
+  0% {
+    transform: scaleX(0);
+
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.edu {
+
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 150px;
+  background-color: lightgoldenrodyellow;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.edu:hover {
+  background-color: khaki;
+  width: 250px;
+  height: 30px;
+  letter-spacing: 5px;
+}
+
+.edu1 {
+  width: 350px;
+  position: absolute;
+  top: 190px;
+  font-weight: bold;
+}
+
+
+
+.edu2,
+.edu3 {
+  float: left;
+}
+
+.edu2 small,
+.edu3 small {
+  display: block;
+  opacity: 0.7;
+}
+
+.edu2 ul li,
+.edu3 ul li {
+  position: relative;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.edu2 ul li:hover::before,
+.edu3 ul li:hover::before {
+  animation: circle 1.2s infinite;
+}
+
+.edu2 ul li:hover,
+.edu3 ul li:hover {
+  color: rgb(46, 148, 182);
+}
+
+.cexp {
+  width: 320px;
+  height: 30px;
+  position: absolute;
+  top: 150px;
+  left: 480px;
+  background-color: lightgoldenrodyellow;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.cexp:hover {
+  background-color: khaki;
+  width: 400px;
+  height: 30px;
+  letter-spacing: 5px;
+}
+
+.cexp1 {
+  width: 350px;
+  position: absolute;
+  top: 200px;
+  left: 480px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+.skill {
+  font-size: 20px;
+  background-color: lightgoldenrodyellow;
+  width: 180px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.skill:hover {
+  background-color: khaki;
+  width: 240px;
+  height: 35px;
+  letter-spacing: 5px;
+}
+
+.cir1 {
+  width: 150px;
+  height: 150px;
+  background: #BEBEBE;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+}
+
+.a1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 190px, 190px, 95px);
+}
+
+.fill1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 100px, 180px, 0px);
+  background-color: khaki;
+}
+
+.full1,
+.fill1 {
+  animation: fill1 ease-in-out 3.8s;
+  transform: rotate(140deg);
+}
+
+@keyframes fill1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(140deg);
+  }
+}
+
+.smallcir1 {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  border-radius: 100%;
+  background: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.word1 {
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  color: cadetblue;
+  position: absolute;
+  top: 55px;
+  left: 25px;
+}
+
+.cir2 {
+  width: 150px;
+  height: 150px;
+  background: #BEBEBE;
+  border-radius: 50%;
+  position: relative;
+  left: 220px;
+  top: 50px;
+}
+
+.a2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 190px, 190px, 95px);
+}
+
+.fill2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 100px, 180px, 0px);
+  background-color: khaki;
+}
+
+.full2,
+.fill2 {
+  animation: fill2 ease-in-out 3.8s;
+  transform: rotate(110deg);
+}
+
+@keyframes fill2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(110deg);
+  }
+}
+
+.smallcir2 {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  border-radius: 100%;
+  background: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.word2 {
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  color: cadetblue;
+  position: absolute;
+  top: 55px;
+  left: 23px;
+}
+
+.cir3 {
+  width: 150px;
+  height: 150px;
+  background: #BEBEBE;
+  border-radius: 50%;
+  position: relative;
+  left: 450px;
+  top: -100px;
+}
+
+.a3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 190px, 190px, 95px);
+}
+
+.fill3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 100px, 180px, 0px);
+  background-color: khaki;
+}
+
+.full3,
+.fill3 {
+  animation: fill3 ease-in-out 3.8s;
+  transform: rotate(130deg);
+}
+
+@keyframes fill3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(130deg);
+  }
+}
+
+.smallcir3 {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  border-radius: 100%;
+  background: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.word3 {
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  color: cadetblue;
+  position: absolute;
+  top: 55px;
+  left: 25px;
+}
+
+.cir4 {
+  width: 150px;
+  height: 150px;
+  background: #BEBEBE;
+  border-radius: 50%;
+  position: relative;
+  left: 680px;
+  top: -250px;
+}
+
+.a4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 190px, 190px, 95px);
+}
+
+.fill4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  clip: rect(0px, 100px, 180px, 0px);
+  background-color: khaki;
+}
+
+.full4,
+.fill4 {
+  animation: fill4 ease-in-out 3.8s;
+  transform: rotate(120deg);
+}
+
+@keyframes fill4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(120deg);
+  }
+}
+
+.smallcir4 {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  border-radius: 100%;
+  background: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.word4 {
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  color: cadetblue;
+  position: absolute;
+  top: 55px;
+  left: 25px;
+}
+
+.proskill {
+  font-size: 20px;
+  position: absolute;
+  top: 380px;
+  background-color: lightgoldenrodyellow;
+  width: 300px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.proskill:hover {
+  background-color: khaki;
+  width: 440px;
+  height: 35px;
+  letter-spacing: 5px;
+}
+
+.skill2 {
+  font-size: 15px;
+  position: absolute;
+  top: 430px;
+  width: 80%;
+
+}
+
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 50px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 50px;
+}
+
+.c {
+  width: 70%;
+  background-color: cadetblue;
+  animation: c ease-in-out 3.8s;
+  transform: scaleX(1);
+}
+
+
+@keyframes c {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.java {
+  width: 75%;
+  background-color: rgb(127, 211, 214);
+  animation: java ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes java {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.html {
+  width: 80%;
+  background-color: cadetblue;
+  animation: html ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes html {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.css {
+  width: 85%;
+  background-color: rgb(127, 211, 214);
+  animation: css ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes css {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.jsp {
+  width: 65%;
+  background-color: cadetblue;
+  animation: jsp ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes jsp {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.mysql {
+  width: 70%;
+  background-color: rgb(127, 211, 214);
+  animation: mysql ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes mysql {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
+}
+
+.exp {
+  font-size: 20px;
+  position: absolute;
+  top: 1000px;
+  background-color: lightgoldenrodyellow;
+  width: 180px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.exp:hover {
+  background-color: khaki;
+  width: 250px;
+  height: 35px;
+  letter-spacing: 5px;
+}
+
+.exp1 {
+  position: absolute;
+  top: 1050px;
+  left: 85px;
+}
+
+.accordion {
+  background-color: rgb(151, 183, 224);
+  color: darkslategray;
+  cursor: pointer;
+  padding: 18px;
+  width: 990px;
+  font-weight: bold;
+  text-align: center;
+
+  font-size: 15px;
+  transition: 0.4s;
+  border: 20px solid lavender;
+  border-radius: 20px;
+}
+
+.accordion1 {
+  background-color: rgb(195, 218, 248);
+  color: darkslategray;
+  cursor: pointer;
+  padding: 18px;
+  width: 990px;
+  font-weight: bold;
+  text-align: center;
+
+  font-size: 15px;
+  transition: 0.4s;
+  border: 20px solid lavender;
+  border-radius: 20px;
+}
+
+.active,
+.accordion:hover {
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+
+.panel {
+  padding-left: 450px;
+  padding-top: 30px;
+  padding-right: 25px;
+  border-radius: 20px;
+  display: none;
+  background-color: lightsteelblue;
+  overflow: hidden;
+  height: 300px;
+  width: 520px;
+  font-size: 20px;
+
+}
+
+
+
+.img1 {
+  width: 350px;
+  height: 250px;
+  border-radius: 0pt;
+  position: absolute;
+  left: 30px;
+  top: 130px;
+  border: dotted 5px;
+}
+
+.img2 {
+  width: 350px;
+  height: 250px;
+  border-radius: 0pt;
+  position: absolute;
+  left: 30px;
+  top: 230px;
+  border: dotted 5px;
+}
+
+.img3 {
+  width: 370px;
+  height: 250px;
+  border-radius: 0pt;
+  position: absolute;
+  left: 30px;
+  top: 330px;
+  border: dotted 5px;
+}
+
+.img4 {
+  width: 370px;
+  height: 250px;
+  border-radius: 0pt;
+  position: absolute;
+  left: 30px;
+  top: 430px;
+  border: dotted 5px;
+}
