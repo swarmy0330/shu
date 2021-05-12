@@ -55,6 +55,10 @@ html {
 
 }
 
+.b1:hover {
+  transform: skewX(25deg);
+}
+
 .b2 {
   width: 50px;
   height: 50px;
@@ -66,6 +70,10 @@ html {
 
 }
 
+.b2:hover {
+  transform: skewX(25deg);
+}
+
 .b3 {
 
   width: 55px;
@@ -75,6 +83,10 @@ html {
   top: 480px;
   left: 260px;
 
+}
+
+.b3:hover {
+  transform: skewX(25deg);
 }
 
 .infor {
