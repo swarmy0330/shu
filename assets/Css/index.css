@@ -774,3 +774,12 @@ img {
   top: 430px;
   border: dotted 5px;
 }
+footer {
+  position: absolute;
+  bottom: -150px;
+  left: 500px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 18px;
+}
