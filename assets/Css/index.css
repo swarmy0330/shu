@@ -47,52 +47,33 @@ html {
 }
 
 .b1 {
-
-  background-color: khaki;
-  /* Green */
-  border: none;
-  color: cadetblue;
-  padding: 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 0pt;
   position: absolute;
   top: 480px;
 
 }
 
 .b2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 0pt;
 
-  background-color: khaki;
-  /* Green */
-  border: none;
-  color: cadetblue;
-  padding: 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
   position: absolute;
   top: 480px;
-  left: 180px;
+  left: 190px;
 
 }
 
 .b3 {
 
-  background-color: khaki;
-  /* Green */
-  border: none;
-  color: cadetblue;
-  padding: 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  width: 55px;
+  height: 55px;
+  border-radius: 0pt;
   position: absolute;
   top: 480px;
-  left: 233px;
+  left: 260px;
 
 }
 
