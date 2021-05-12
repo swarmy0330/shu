@@ -119,31 +119,50 @@ img {
   position: absolute;
   left: 80px;
   top: 30px;
+
+  animation: p1 ease-in-out 3.8s;
+  transform: scaleX(1);
+}
+
+@keyframes p1 {
+  0% {
+    transform: scaleX(0);
+
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .edu {
-  width: 350px;
-  padding: 80px 25px;
 
-}
-
-.edu:hover>div {
-  transition-duration: 0.3s;
-}
-
-.edu:hover>div:hover h3 {
-  letter-spacing: 1.6px;
-}
-
-.edu h3 i {
-  color: #fcfcfc;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 150px;
+  background-color: lightgoldenrodyellow;
   font-size: 20px;
-  line-height: 42px;
-  text-align: center;
-  vertical-align: middle;
-
-  transition-duration: 0.3s;
+  font-weight: bold;
+  border-radius: 30px;
 }
+
+.edu:hover {
+  background-color: khaki;
+  width: 250px;
+  height: 30px;
+  letter-spacing: 5px;
+}
+
+.edu1 {
+  width: 350px;
+  position: absolute;
+  top: 190px;
+  font-weight: bold;
+}
+
+
 
 .edu2,
 .edu3 {
@@ -169,35 +188,43 @@ img {
   animation: circle 1.2s infinite;
 }
 
-.edu2 ul li:hover span,
-.edu3 ul li:hover span {
+.edu2 ul li:hover,
+.edu3 ul li:hover {
   color: rgb(46, 148, 182);
 }
 
 .cexp {
-  width: 350px;
-  padding: 30px;
+  width: 320px;
+  height: 30px;
   position: absolute;
-  top: 100px;
-}
-
-.cexp:hover>div {
-  transition-duration: 0.3s;
-}
-
-.cexp:hover>div:hover h3 {
-  letter-spacing: 1.6px;
-}
-
-.cexp h3 i {
-  color: #fcfcfc;
+  top: 150px;
+  left: 480px;
+  background-color: lightgoldenrodyellow;
   font-size: 20px;
-  line-height: 42px;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 8px;
-  transition-duration: 0.3s;
+  font-weight: bold;
+  border-radius: 30px;
 }
+
+.cexp:hover {
+  background-color: khaki;
+  width: 400px;
+  height: 30px;
+  letter-spacing: 5px;
+}
+
+.cexp1 {
+  width: 350px;
+  position: absolute;
+  top: 200px;
+  left: 480px;
+  font-weight: bold;
+}
+
+
+
+
+
+
 
 .skill {
   font-size: 20px;
@@ -205,6 +232,13 @@ img {
   width: 180px;
   height: 35px;
   border-radius: 30px;
+}
+
+.skill:hover {
+  background-color: khaki;
+  width: 240px;
+  height: 35px;
+  letter-spacing: 5px;
 }
 
 .cir1 {
@@ -468,6 +502,13 @@ img {
   border-radius: 30px;
 }
 
+.proskill:hover {
+  background-color: khaki;
+  width: 440px;
+  height: 35px;
+  letter-spacing: 5px;
+}
+
 .skill2 {
   font-size: 15px;
   position: absolute;
@@ -494,32 +535,116 @@ img {
 .c {
   width: 70%;
   background-color: cadetblue;
+  animation: c ease-in-out 3.8s;
+  transform: scaleX(1);
+}
 
+
+@keyframes c {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .java {
   width: 75%;
   background-color: rgb(127, 211, 214);
+  animation: java ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes java {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .html {
   width: 80%;
   background-color: cadetblue;
+  animation: html ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes html {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .css {
   width: 85%;
   background-color: rgb(127, 211, 214);
+  animation: css ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes css {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .jsp {
   width: 65%;
   background-color: cadetblue;
+  animation: jsp ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes jsp {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .mysql {
   width: 70%;
   background-color: rgb(127, 211, 214);
+  animation: mysql ease-in-out 3.8s;
+  transform: scaleX(1)
+}
+
+@keyframes mysql {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  100% {
+    transform: scaleX(1);
+
+  }
 }
 
 .exp {
@@ -532,6 +657,13 @@ img {
   border-radius: 30px;
 }
 
+.exp:hover {
+  background-color: khaki;
+  width: 250px;
+  height: 35px;
+  letter-spacing: 5px;
+}
+
 .exp1 {
   position: absolute;
   top: 1050px;
@@ -539,38 +671,57 @@ img {
 }
 
 .accordion {
-  background-color: khaki;
-  color: cadetblue;
+  background-color: rgb(151, 183, 224);
+  color: darkslategray;
   cursor: pointer;
   padding: 18px;
   width: 990px;
   font-weight: bold;
   text-align: center;
-  outline: none;
+
   font-size: 15px;
   transition: 0.4s;
   border: 20px solid lavender;
-  border-radious:20px;
+  border-radius: 20px;
+}
+
+.accordion1 {
+  background-color: rgb(195, 218, 248);
+  color: darkslategray;
+  cursor: pointer;
+  padding: 18px;
+  width: 990px;
+  font-weight: bold;
+  text-align: center;
+
+  font-size: 15px;
+  transition: 0.4s;
+  border: 20px solid lavender;
+  border-radius: 20px;
 }
 
 .active,
 .accordion:hover {
-  background-color: lemonchiffon;
+  background-color: lightblue;
+  border-radius: 20px;
 }
+
 
 .panel {
   padding-left: 450px;
   padding-top: 30px;
   padding-right: 25px;
-
+  border-radius: 20px;
   display: none;
-  background-color: white;
+  background-color: lightsteelblue;
   overflow: hidden;
   height: 300px;
   width: 520px;
   font-size: 20px;
 
 }
+
+
 
 .img1 {
   width: 350px;
